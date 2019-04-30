@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+  }
+
+/* Displays the countdown */
+.countdown {
+    border-width: 1px;
+    border: limegreen;
+    border-style: inset;
+    border-radius: 7px;
+    border-color:yellow;
+    border-style: ridge;
+    width: 20%;
+    text-align: center;
+    color: limegreen;
+    font-weight: bolder;
+    padding: 3px;
+    margin: 0 auto;
+}
+
+div {
+    display: inline;
+    background-color: black;
+    border: 7px;
+    border-radius: 1px;
+    border-color:yellow;
+    border-style: ridge;
+    font-size: 20px;
+    font-weight: bolder;
+   
+}
+
+/*  Styling for the question section */
+.center {
+    display: inline-block;
+    width: auto;
+    border-style: ridge;
+    border-radius: 11px;
+    background: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: bolder;
+    background-size: 100%;
+    text-align: center;
+}
+
+#question {
+    font-size: 28px;
+    color: black;
+    display: inline-block;
+    background-color: green;
+}
+
+
+/* Styling for Start and Submit buttons */
+.menu {
+    padding: 3px;
+    cursor: grab;
+    outline: black ;
+    background-color: limegreen;
+    border: yellow;
+    border-style: ridge;
+    border-radius: 11px;
+    box-shadow: 0 5px black;
+    margin: 10px;
+    font-size: 23px;
+    font-weight: bolder;
+    position: center;
+    color: purple;
+  }
+  
+  .menu:hover {
+    background-color: red;
+}
+  
+  .menu:active {
+    background-color:red; /* When the button is clicked */
+    box-shadow: 0 7px green;
+    transform: translateY(4px);
+  }
+
+/* Where the total score is displayed */
+#totalScore {
+    display: block;
+    border-width: 2px;
+    border:yellow;
+    border-style: inset;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 24px;
+    padding: 15px;
+    font-weight: bolder;
+}
+
+body {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: yellow;
+    text-align: center;
+    background-position: center;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black ;
+    background: url(../images/stadium.jpg);
+}
+
+
+
+footer {
+    text-align: center;
+    color: white;
+    border-top: 1px solid black;
+    background: transparent;
+    font-weight: bolder;
+    position: static;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 40px auto;
+}
+  
+@media only screen and (max-width: 980px) {
+    body {
+        max-width: 100%;
+        height: auto;
+    }
+    .wrapper {
+        width: 800px;
+      }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        max-width: 100%;
+        height: auto;
+    }
+    .wrapper {
+        width: 800px;
+      }
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        max-width: 100%;
+        height: auto;
+    }
+    header {
+        position: static;
+    }
+    .wrapper {
+        width: 600px;
+      }
+}
+
+
