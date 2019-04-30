@@ -257,6 +257,3 @@ function runClock(t) {
   return minutes + ":" + seconds;
 
 }
-
-
-
