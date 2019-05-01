@@ -223,19 +223,17 @@ function quizAnswers() {
       // var yourAnswer = $(:checked").val();
       // var input = $(questions[i].answers[j].value).prop("checked");
 
-      //  $("#test").text(input);
-      var input = $("input[name=" + questions[i].name + "]:checked").val();
+      // //  $("#test").text(input);
+      // var input = $("input[name=" + questions[i].name + "]:checked").val();
 
-      if (questions[i].answers[j].correct === false) {
-        div.append(questions[i].answers[j].value);
-      }
-      
-    console.log(input);
-
+      // if (questions[i].answers[j].correct === false) {
+      //   div.append("<h3>" + questions[i].answers[j].value + "</h3>");
+      // }
       if (questions[i].answers[j].correct === true) {
 
         div.append("<h3>" + "Your Answer: " + "<br>" + "Correct Answer: " + questions[i].answers[j].value + "</h3>");
       }
+      
 
     }
     // Shows the answers to the Quiz in the html file
